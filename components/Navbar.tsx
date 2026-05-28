@@ -16,6 +16,7 @@ import {
   Compass,
   Users,
   Settings,
+  Calculator,
 } from "lucide-react";
 import { useTheme } from "@/context/ThemeContext";
 
@@ -26,6 +27,7 @@ const links = [
   { href: "/shio", label: "Shio Cina", icon: Users },
   { href: "/jadwal-sholat", label: "Jadwal Sholat", icon: Clock },
   { href: "/hari-besar", label: "Hari Besar", icon: Compass },
+  { href: "/petung", label: "Petung Jawa", icon: Calculator },
   { href: "/pengaturan", label: "Pengaturan", icon: Settings },
 ];
 
