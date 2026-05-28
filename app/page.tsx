@@ -7,6 +7,7 @@ import { CalendarGrid } from "@/components/CalendarGrid";
 import { CalendarHeader } from "@/components/CalendarHeader";
 import { RealtimeClock } from "@/components/RealtimeClock";
 import { MoonPhase } from "@/components/MoonPhase";
+import { PasaranSearch } from "@/components/PasaranSearch";
 import { useTheme } from "@/context/ThemeContext";
 import { gregorianToHijri, getHijriMonthName } from "@/lib/hijri";
 import { computeWeton } from "@/lib/jawa";
@@ -91,6 +92,7 @@ export default function Dashboard() {
 
         <div className="space-y-6">
           <MoonPhase />
+          <PasaranSearch />
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
